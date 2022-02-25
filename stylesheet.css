@@ -5,10 +5,10 @@ body {
     font-size: 20px;
 }
 
-middle {
-    width: 45%;
+.middle {
+    width: 50%;
     margin: auto;
-    background: white;
+    background: lightgray;
 }
 
 section {
@@ -18,4 +18,34 @@ section {
 
 section img {
     width: 100%;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sidenav a:hover {
+    left: 0;
+}
+
+.home {
+    top: 20px;
+    background-color: firebrick;
+}
+
+.bounty {
+    top: 80px;
+    background-color: orange;
+}
+
+.competitions {
+    top: 140px;
+    background-color: darkcyan;
 }
